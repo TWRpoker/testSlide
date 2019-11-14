@@ -1,0 +1,103 @@
+<head>
+  <link rel="stylesheet" href="css/reveal.css">
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="box-of-star1">
+        <div class="star star-position1"></div>
+        <div class="star star-position2"></div>
+        <div class="star star-position3"></div>
+        <div class="star star-position4"></div>
+        <div class="star star-position5"></div>
+        <div class="star star-position6"></div>
+        <div class="star star-position7"></div>
+        <div class="star star-position8"></div>
+    </div>
+    <div class="box-of-star2">
+      <div class="star star-position1"></div>
+      <div class="star star-position2"></div>
+      <div class="star star-position3"></div>
+      <div class="star star-position4"></div>
+      <div class="star star-position5"></div>
+      <div class="star star-position6"></div>
+      <div class="star star-position7"></div>
+    </div>
+    <div class="box-of-star3">
+      <div class="star star-position1"></div>
+      <div class="star star-position2"></div>
+      <div class="star star-position3"></div>
+      <div class="star star-position4"></div>
+      <div class="star star-position5"></div>
+      <div class="star star-position6"></div>
+      <div class="star star-position7"></div>
+    </div>
+    <div class="box-of-star4">
+      <div class="star star-position1"></div>
+      <div class="star star-position2"></div>
+      <div class="star star-position3"></div>
+      <div class="star star-position4"></div>
+      <div class="star star-position5"></div>
+      <div class="star star-position6"></div>
+      <div class="star star-position7"></div>
+    </div>
+
+    
+</body>
+  
+<div class="reveal">
+  <div class="slides" >
+    <!-- 簡報內容開始 -->
+    
+    <!-- 封面 -->
+    <section class="sectionBox" >
+      <h1>MERRY CHRISTMAS</h1>
+      <p>耶誕交換禮物活動說明</p>
+    </section>
+    <!-- 時程表 -->
+    <section class="sectionBox" id="show-a-link" data-transition="slide" data-background="#f5f5f5" data-background-transition="zoom">
+      <h1>還有什麼？</h1>
+      <ul>
+          <li class="fragment"></i> 123</li>
+          <li class="fragment"></i> 123</li>
+          <li class="fragment"></i> 123</li>
+          <li class="fragment"></i> 123</li>
+          <li class="fragment"></i> 123</li>
+      </ul>
+    </section>
+    <!-- 禮物準備規則 -->
+    <section class="sectionBox">
+      <h1>12/25聖誕節不見不散</h1>
+      <p>
+        - <a href="https://revealjs.com/#/">更多範例</a> <br>
+      </p>
+    </section>
+    <!-- 簡報內容結束 -->
+
+  </div>
+</div>
+
+<script>
+  // 啟用 reveal.js
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+    // 加入一些 reveal.js 的外掛
+    dependencies: [
+      { src: 'plugin/highlight/highlight.js',
+        async: true, condition: function() {
+          return !!document.querySelector( 'pre code' );
+        }, callback: function() {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ]
+  });
+</script>
